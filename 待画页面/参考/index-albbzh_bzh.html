@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>宁夏质量监督局--质监综合服务平台</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!--网站导航选项卡 样式 begin-->
+<link rel="stylesheet" href="css/zzsc.css" type="text/css">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/zzsc.js"></script>
+
+<link rel="stylesheet" type="text/css" href="../easyui/themes/default/easyui.css">
+<link rel="stylesheet" type="text/css" href="../easyui/themes/icon.css">
+<link rel="stylesheet" type="text/css" href="../easyui/demo.css">
+<script type="text/javascript" src="../easyui/jquery.min.js"></script>
+<script type="text/javascript" src="../easyui/jquery.easyui.min.js"></script>
+<script type="text/javascript" src="../easyui/easyui-lang-zh_CN.js"></script>
+
+<!--网站导航选项卡 样式 end-->
+
+
+<link href="css/z_default.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+<body>
+<center>
+<!--body图片背景-->
+<img src="images/index_05.png" class="backgroundImg">
+
+<table width="1105" border="0" cellpadding="0" cellspacing="0" align="center">
+<!--top及搜索-->
+<script language="javascript" src="js/zjTopSerch.js"></script>
+<!--阿拉伯标准化 导航-->
+<script language="javascript" src="js/menuALBBZ.js"></script>
+ <tr>
+	<td valign="top" align="center">
+		<table class="tableMain">
+        	<!--<tr>
+            	<td colspan="3"><img src="images/index_22.png" border="0" height="190"/></td>
+            </tr>-->
+            <tr class="tableMain tr1">		
+				<td width="130" valign="top">
+						<DIV class="left_menu_list hdzx" align="center">
+                            <ul>
+                            	<li class="list11"> <a href="index-albbzh_jcxx.html" target="_self">基础信息</a> </li>
+                                <li class="list_line"></li>
+                                <li class="list12"> <a href="index-albbzh_bzh.html" target="_self" class="list_on_hd" >阿拉伯标准</a> </li>
+                                <li class="list_line"></li>
+                                <li class="list13"> <a href="#">标准订阅</a> </li>
+                                <li class="list_line"></li>
+                                <li class="list14"> <a href="index-albbzh_zjk.html" target="_self">专项人才</a> </li>
+                                <li class="list_line"></li>
+                                <li class="list15"> <a href="index-albbzh_kjzt-kjxm-sq.html" target="_self">科技专题研究</a> </li>
+                            </ul>
+                        </DIV>
+                </td>
+                <td width="20"></td>
+				<td width="955" align="left" valign="top">
+                <div id="list_content_area" style="margin-top:20px">
+                  <div class="search_area">
+                <table style="background-color:#ededed;">
+                      <tr>
+                        <td height="40" align="right">国家名称：</td>
+                        <td align="left"><label>
+                          <select class="easyui-combobox" name="select" style="width:130px;">
+                            <option selected>全部</option>
+                            <option>缅甸</option>
+                            <option>老挝</option>
+                            <option>泰国</option>
+                            <option>新加坡</option>
+                            <option>马来西亚</option>
+                          </select>
+                        </label></td>
+                        
+                        <td align="right">标准编号：</td>
+                        <td align="left"><input name="text" type="text" class="easyui-textbox" style="width:130px;"/></td>
+						<td align="right">标准名称：</td>
+						<td align="left"><input name="text2" type="text" class="easyui-textbox" style="width:130px;"/></td>
+						<td align="right">标准类别：</td>
+						<td align="left"><select class="easyui-combobox" name="select2"  style="width:130px;">
+                            <option>全部</option>
+                            <option>类别一</option>
+                            <option>类别二</option>
+                            <option>类别三</option>
+                            <option>类别四</option>
+                            <option>类别五</option>
+                                                </select></td>
+                      </tr>
+					   <tr>
+                        <td height="40" align="right">发证日期：</td>
+                        <td colspan="3" align="left"><input class="easyui-datebox" class="input_text" style="width:100px;"/> 
+                          -
+                            <input name="text3" type="text" class="easyui-datebox" style="width:100px;"/></td>
+                        <td align="right">有效期：</td>
+                        <td align="left"><input type="text" class="easyui-datebox" style="width:130px;"/></td>
+                        <td align="right">&nbsp;</td>
+                        <td align="right">
+						 <div class="con_button">重&nbsp;&nbsp;置</div>
+						   <div class="con_button" style=" margin-right:5px;">查&nbsp;&nbsp;询</div>
+						  </td>
+                      </tr>
+                 </table>
+                </div>
+				<div class="file_cz">
+					<div style="margin-right:10px;"><a href="#" class="easyui-linkbutton" style="width:100%" onClick="">删 除</a></div>
+					<div><a class="easyui-linkbutton" style="width:100%" href="#" onClick="">修 改</a></div>
+					<div><a class="easyui-linkbutton" style="width:100%" href="#" onClick="">增 加</a></div>
+					<div><a class="easyui-linkbutton" style="width:100%" href="#" onClick="">详 情</a></div>
+					<div><a class="easyui-linkbutton" style="width:100%" href="#" onClick="">导 出</a></div>
+					<div><a class="easyui-linkbutton" style="width:100%" href="#" onClick="">发 布</a></div>					
+                </div>
+                <div class="list_area" style="width:100%;height:230px">
+                     <!--  <table border="0" cellpadding="0" cellspacing="0" class="newsListTable">
+                      <thead>
+                      <tr>
+                        <th width="40">选择</th>
+                        <th width="40">序号</th>
+                        <th>国家名称</th>
+                        <th>语言</th>
+                        <th>标准状态</th>
+                        <th>作废日期</th>
+                        <th>发布日期</th>
+                        <th>标准编号</th>
+                        <th>标准名称</th>
+                        <th>标准内容</th>
+                        <th>标准类别</th>
+                        <th>标准简介</th>
+                        <th>有效标志</th>
+                      </tr>
+                      </thead>
+                      <tr bgcolor="#fafafa">
+                        <td width="5%" align="center"><input type="checkbox" /></td>
+                        <td align="center" width="6%">1</td>
+                        <td align="center">缅甸</td>
+                        <td align="left"><dl>
+                          <DT></DT>
+                          <DD><A href="http://baike.baidu.com/view/36444.htm" target="_blank">缅甸语</A> </DD>
+                        </dl>
+                        </td>
+                        <td align="center">20160309</td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">办理中</td>
+                        </tr>
+                      <tr bgcolor="#f5f5f5">
+                        <td width="5%" align="center"><input type="checkbox" /></td>
+                        <td align="center" width="6%">2</td>
+                        <td align="center">老挝</td>
+                        <td align="left">老挝语</td>
+                        <td align="center">20160120</td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">实地核查</td>
+                        </tr>
+                      <tr bgcolor="#fafafa">
+                        <td width="5%" align="center"><input type="checkbox" /></td>
+                        <td align="center" width="6%">3</td>
+                        <td align="center">新加坡</td>
+                        <td align="left">汉语</td>
+                        <td align="center">20160113</td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">实地核查</td>
+                        </tr>
+                      <tr bgcolor="#f5f5f5">
+                        <td width="5%" align="center"><input type="checkbox" /></td>
+                        <td align="center" width="6%">4</td>
+                        <td align="center">马来西亚</td>
+                        <td align="left">马来语 </td>
+                        <td align="center">20160113</td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">&nbsp;</td>
+                        <td align="center">已办结</td>
+                        </tr>
+                    </table> -->
+                    
+             		<div class="list_area" style="height:205px">
+             		<table id="dg" width="99%" border="0" cellpadding="0" cellspacing="0" class="newsListTable" data-options="rownumbers:false,singleSelect:true,autoRowHeight:false, pagination:true,pageSize:10">
+			 		<thead>
+             		<tr>
+             			<th field="name1" align="center" width="5%">选择</th>
+             			<th field="name2" align="center" width="5%">序号</th>
+             			<th field="name3" align="center" width="7%">国家名称</th>
+             			<th field="name4" align="center" width="7%">语言</th>
+             			<th field="name5" align="center" width="7%">标准状态</th>
+             			<th field="name6" align="center" width="9%">作废日期</th>
+             			<th field="name7" align="center" width="9%">发布日期</th>
+	             		<th field="name8" align="center" width="7%">标准编号</th>
+	             		<th field="name9" align="center" width="7%">标准名称</th>
+	             		<th field="name10" align="center" width="10%">标准内容</th>
+	             		<th field="name11" align="center" width="7%">标准类别</th>
+	             		<th field="name12" align="center" width="10%">标准简介</th>
+	             		<th field="name13" align="center" width="10%">有效标志</th>
+             		</tr>
+             		</thead> 
+             		</table>
+             		<script>
+	    			var basePath="<%=basePath%>";
+					function getData(){
+					var rows = [];
+					for(var i=1; i<=2000; i++){
+					var amount = Math.floor(Math.random()*1000);
+						var price = Math.floor(Math.random()*1000);
+						rows.push({
+				    	name1:"<input type='checkbox'></input>",
+				    	name2:i,
+				    	name3:"中国",
+				    	name4:"汉语",
+				    	name5:"正常",
+				    	name6:"2018-12-12",
+				    	name7:"2016-01-01",
+				    	name8:"123456",
+				    	name9:"名称"+i,
+				    	name10:"内容"+i,
+				    	name11:"A",
+				    	name12:"简介"+i,
+				    	name13:"标志"+i,
+						});
+					}
+						return rows;
+					}
+		
+					function pagerFilter(data){
+					if (typeof data.length == 'number' && typeof data.splice == 'function'){	// is array
+						data = {
+							total: data.length,
+							rows: data
+						}
+					}
+					var dg = $(this);
+					var opts = dg.datagrid('options');
+					var pager = dg.datagrid('getPager');
+					pager.pagination({
+						onSelectPage:function(pageNum, pageSize){
+							opts.pageNumber = pageNum;
+							opts.pageSize = pageSize;
+							pager.pagination('refresh',{
+								pageNumber:pageNum,
+								pageSize:pageSize
+							});
+							dg.datagrid('loadData',data);
+						}
+					});
+					if (!data.originalRows){
+						data.originalRows = (data.rows);
+					}
+						var start = (opts.pageNumber-1)*parseInt(opts.pageSize);
+						var end = start + parseInt(opts.pageSize);
+						data.rows = (data.originalRows.slice(start, end));
+						return data;
+					}
+		
+					$(function(){
+						$('#dg').datagrid({loadFilter:pagerFilter}).datagrid('loadData', getData());
+					});
+					</script>
+          		  	</div> 
+          
+                </div>
+
+                </div>
+            </td>
+        </tr>
+</table>
+		
+		</td>
+	</tr>
+<tr>
+	<td>
+	<!--业务直通车-->
+	<script language="javascript" src="js/ywztcTab.js"></script>
+	</td>
+</tr>
+<tr>
+	<td>
+	<!--网站导航-->
+	<script language="javascript" src="js/otherLink.js"></script>			</td>
+</tr>
+
+</table>
+<!--底部-->
+<script language="javascript" src="js/zjEnd.js"></script>
+</center>
+</body>
+</html>
