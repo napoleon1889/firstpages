@@ -104,94 +104,10 @@
           <div><a class="easyui-linkbutton" style="width:100%" href="#" onClick="">重 置</a></div>
           <div><a class="easyui-linkbutton" style="width:100%" href="#" onClick="">查 询</a></div>          
                 </div>
-                <div class="list_area" style="width:100%;height:230px">
-                     <!--  <table border="0" cellpadding="0" cellspacing="0" class="newsListTable">
-                      <thead>
-                      <tr>
-                        <th width="40">选择</th>
-                        <th width="40">序号</th>
-                        <th>国家名称</th>
-                        <th>语言</th>
-                        <th>标准状态</th>
-                        <th>作废日期</th>
-                        <th>发布日期</th>
-                        <th>标准编号</th>
-                        <th>标准名称</th>
-                        <th>标准内容</th>
-                        <th>标准类别</th>
-                        <th>标准简介</th>
-                        <th>有效标志</th>
-                      </tr>
-                      </thead>
-                      <tr bgcolor="#fafafa">
-                        <td width="5%" align="center"><input type="checkbox" /></td>
-                        <td align="center" width="6%">1</td>
-                        <td align="center">缅甸</td>
-                        <td align="left"><dl>
-                          <DT></DT>
-                          <DD><A href="http://baike.baidu.com/view/36444.htm" target="_blank">缅甸语</A> </DD>
-                        </dl>
-                        </td>
-                        <td align="center">20160309</td>
-                        <td align="center">&nbsp;</td>
-                        <td align="center">&nbsp;</td>
-                        <td align="center">&nbsp;</td>
-                        <td align="center">&nbsp;</td>
-                        <td align="center">&nbsp;</td>
-                        <td align="center">&nbsp;</td>
-                        <td align="center">&nbsp;</td>
-                        <td align="center">办理中</td>
-                        </tr>
-                      <tr bgcolor="#f5f5f5">
-                        <td width="5%" align="center"><input type="checkbox" /></td>
-                        <td align="center" width="6%">2</td>
-                        <td align="center">老挝</td>
-                        <td align="left">老挝语</td>
-                        <td align="center">20160120</td>
-                        <td align="center">&nbsp;</td>
-                        <td align="center">&nbsp;</td>
-                        <td align="center">&nbsp;</td>
-                        <td align="center">&nbsp;</td>
-                        <td align="center">&nbsp;</td>
-                        <td align="center">&nbsp;</td>
-                        <td align="center">&nbsp;</td>
-                        <td align="center">实地核查</td>
-                        </tr>
-                      <tr bgcolor="#fafafa">
-                        <td width="5%" align="center"><input type="checkbox" /></td>
-                        <td align="center" width="6%">3</td>
-                        <td align="center">新加坡</td>
-                        <td align="left">汉语</td>
-                        <td align="center">20160113</td>
-                        <td align="center">&nbsp;</td>
-                        <td align="center">&nbsp;</td>
-                        <td align="center">&nbsp;</td>
-                        <td align="center">&nbsp;</td>
-                        <td align="center">&nbsp;</td>
-                        <td align="center">&nbsp;</td>
-                        <td align="center">&nbsp;</td>
-                        <td align="center">实地核查</td>
-                        </tr>
-                      <tr bgcolor="#f5f5f5">
-                        <td width="5%" align="center"><input type="checkbox" /></td>
-                        <td align="center" width="6%">4</td>
-                        <td align="center">马来西亚</td>
-                        <td align="left">马来语 </td>
-                        <td align="center">20160113</td>
-                        <td align="center">&nbsp;</td>
-                        <td align="center">&nbsp;</td>
-                        <td align="center">&nbsp;</td>
-                        <td align="center">&nbsp;</td>
-                        <td align="center">&nbsp;</td>
-                        <td align="center">&nbsp;</td>
-                        <td align="center">&nbsp;</td>
-                        <td align="center">已办结</td>
-                        </tr>
-                    </table> -->
-                    
-                <div class="list_area" style="height:205px">
+                   
+                <div class="list_area" style="height:260px;overflow:hidden">
                 <table id="dg" width="99%" border="0" cellpadding="0" cellspacing="0" class="newsListTable" data-options="rownumbers:false,singleSelect:true,autoRowHeight:false, pagination:true,pageSize:10">
-          <thead>
+                <thead>
                 <tr>
                   <th field="name1" align="center" width="5%">选择</th>
                   <th field="name2" align="center" width="5%">序号</th>
@@ -209,7 +125,7 @@
             var basePath="<%=basePath%>";
           function getData(){
           var rows = [];
-          for(var i=1; i<=2000; i++){
+          for(var i=1; i<=8; i++){
           var amount = Math.floor(Math.random()*1000);
             var price = Math.floor(Math.random()*1000);
             rows.push({
@@ -267,7 +183,6 @@
           </script>
                   </div> 
           
-                </div>
 
                 </div>
             </td>
