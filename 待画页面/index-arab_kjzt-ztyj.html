@@ -28,13 +28,14 @@
 <img src="images/index_05.png" class="backgroundImg">
 
 <table width="1105" border="0" cellpadding="0" cellspacing="0" align="center">
-<!--top及搜索-->
-<script language="javascript" src="js/zjTopSerch.js"></script>
-<!--阿拉伯标准化 导航-->
-<script language="javascript" src="js/menuALBBZ.js"></script>
+
  <tr>
   <td valign="top" align="center">
     <table class="tableMain">
+        <!--top及搜索-->
+        <script language="javascript" src="js/zjTopSerch.js"></script>
+        <!--阿拉伯标准化 导航-->
+        <script language="javascript" src="js/menuALBBZ.js"></script>
           <!--<tr>
               <td colspan="3"><img src="images/index_22.png" border="0" height="190"/></td>
             </tr>-->
@@ -61,46 +62,61 @@
                 <div class="fwng" style="margin-left:0px;width:229px;">
                     <a href="index-阿拉伯标准化_科技专题-科技项目-申请.html" target="_self">科技项目管理  </a></div>
                 <div class="fwng" style="width:228px;">
-                    <a href="index-阿拉伯标准化_科技专题-科技论文.html" target="_self" class="but_on">科技论文管理</a></div>
+                    <a href="index-index-arab_kjzt-kjlw.html" target="_self" >科技论文管理</a></div>
                 <div class="fwng" style="width:228px;">
-                    <a href="index-阿拉伯标准化_科技专题-科技信息.html" target="_self">科技信息发布</a></div>
+                    <a href="index-arab_kjzt-kjxx.html" target="_self" >科技信息发布</a></div>
                 <div class="fwng" style="width:229px;">
-                    <a href="index-阿拉伯标准化_科技专题-专题研究-申报.html" target="_self">专题研究</a></div>
+                    <a href="index-阿拉伯标准化_科技专题-专题研究-申报.html" target="_self" class="but_on">专题研究</a></div>
                 </div>
-                <div id="list_content_area" style="margin-top:20px">
+
+                <div class="file_menu" align="center" style="padding-bottom:0">
+                    <div style="margin-left:10px;width:140px">
+                     <a href="index-arab_kjzt-ztyj.html" target="_self"  class="fiv_on">专题研究申报管理</a>
+                    </div>
+                    <div>
+                    <a href="index-arab_kjzt-ztyj-ysjhgl.html" target="_self">预算计划管理</a></div>
+                </div>
+
+                <div id="list_content_area" style="margin-top:0px">
                   <div class="search_area">
                 <table style="background-color:#ededed;">
                       <tr>
-                        <td height="40" align="right">企业名称：</td>
+                        <td height="40" align="right">专题编号：</td>
                         <td align="left"><label>
-                          <select class="easyui-combobox" name="select" style="width:130px;">
+                          <input type="text" name="name_ztbh" class="easyui-textbox"  style="width:100px;">
+                        </label></td>
+                        <td height="40" align="right">专题名称：</td>
+                        <td align="left"><label>
+                          <input type="text" name="name_ztmc" class="easyui-textbox"  style="width:100px;">
+                        </label></td>
+                        <td height="40" align="right">专题活动类型：</td>
+                        <td align="left"><label>
+                          <select class="easyui-combobox" name="select" style="width:100px;">
                             <option>第一种类型</option>
                             <option>第二种类型</option>
                           </select>
                         </label></td>
-                        
-                        <td align="right">论文题目：</td>
-                        <td align="left"><input name="text" type="text" class="easyui-textbox" style="width:130px;"/></td>
-                        <td align="right">发表刊物/论文集：</td>
-                        <td align="left"><input name="text2" type="text" class="easyui-textbox" style="width:130px;"/></td>
-                      </tr>
-             <tr>
-                        <td align="right">刊物级别：</td>
-                        <td align="left"><input name="text2" type="text" class="easyui-textbox" style="width:130px;"/></td>
-                        <td height="40" align="right">发表/出版时间：</td>
-                        <td colspan="3" align="left"><input class="easyui-datebox" class="input_text" style="width:100px;"/> 
-                          -
-                            <input name="text3" type="text" class="easyui-datebox" style="width:100px;"/></td>
+                        <td height="40" align="right">责任单位：</td>
+                        <td colspan="3" align="left"><input class="easyui-textbox" class="input_text" style="width:100px;"/> 
 
-              </td>
+                        <td height="40" align="right">项目组长：</td>
+                        <td colspan="3" align="left"><input class="easyui-textbox" class="input_text" style="width:100px;"/> 
+                        <!--
+                        <input name="text3" type="text" class="easyui-datebox" style="width:100px;"/></td>
+                        -->
                       </tr>
+              </td>
+            </tr>
                  </table>
                 </div>
         <div class="file_cz">
-          <div style="margin-right:10px;"><a href="#" class="easyui-linkbutton" style="width:100%" onClick="">删 除</a></div>
+          <div style="margin-right:10px;"><a href="#" class="easyui-linkbutton" style="width:100%" onClick="">帮助</a></div>
+          <div><a class="easyui-linkbutton" style="width:100%" href="#" onClick="">填表说明</a></div>
+          <div><a class="easyui-linkbutton" style="width:100%" href="#" onClick="">导 出</a></div>
+          <div><a class="easyui-linkbutton" style="width:100%" href="#" onClick="">导 入</a></div>
+          <div><a class="easyui-linkbutton" style="width:100%" href="#" onClick="">删 除</a></div>
           <div><a class="easyui-linkbutton" style="width:100%" href="#" onClick="">修 改</a></div>
           <div><a class="easyui-linkbutton" style="width:100%" href="#" onClick="">增 加</a></div>
-          <div><a class="easyui-linkbutton" style="width:100%" href="#" onClick="">详 情</a></div>
           <div><a class="easyui-linkbutton" style="width:100%" href="#" onClick="">重 置</a></div>
           <div><a class="easyui-linkbutton" style="width:100%" href="#" onClick="">查 询</a></div>          
                 </div>
@@ -195,13 +211,13 @@
                 <tr>
                   <th field="name1" align="center" width="5%">选择</th>
                   <th field="name2" align="center" width="5%">序号</th>
-                  <th field="name3" align="center" width="12%">论文类型</th>
-                  <th field="name4" align="center" width="18%">论文题目</th>
-                  <th field="name5" align="center" width="26%">发表刊物/论文集</th>
-                  <th field="name13" align="center" width="12%">刊物级别</th>
-                  <th field="name6" align="center" width="9%">发表时间</th>
-                  <th field="name7" align="center" width="9%">出版时间</th>
-                  <th field="name8" align="center" width="7%">学科门类</th>
+                  <th field="name3" align="center" width="12%">专题编号</th>
+                  <th field="name4" align="center" width="20%">专题名称</th>
+                  <th field="name6" align="center" width="9%">专题密级</th>
+                  <th field="name5" align="center" width="13%">专题活动类型</th>
+                  <th field="name13" align="center" width="13%">责任单位</th>
+                  <th field="name9" align="center" width="15%">项目组长</th>
+                  <th field="name8" align="center" width="12%">总经费（万元）</th>
                 </tr>
                 </thead> 
                 </table>
@@ -215,17 +231,17 @@
             rows.push({
               name1:"<input type='checkbox'></input>",
               name2:i,
-              name3:"中国",
-              name4:"汉语",
+              name3:"12345",
+              name4:"风险预测",
               name5:"正常",
-              name6:"2018-12-12",
+              name6:"绝密",
               name7:"2016-01-01",
               name8:"123456",
               name9:"名称"+i,
               name10:"内容"+i,
               name11:"A",
               name12:"简介"+i,
-              name13:"标志"+i,
+              name13:"科室"+i,
             });
           }
             return rows;
